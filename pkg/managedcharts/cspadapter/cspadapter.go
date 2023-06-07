@@ -12,9 +12,11 @@ import (
 
 const (
 	// ChartNamespace is the namespace that we expect the adapter to be installed in
-	ChartNamespace = "cattle-csp-adapter-system"
+	//ChartNamespace = "cattle-csp-adapter-system"
 	// chartName is the name of the csp adapter chart.
-	chartName = "rancher-csp-adapter"
+	//chartName = "rancher-csp-adapter"
+	ChartNamespace = "cattle-csp-usage-operator-system"
+	chartName = "csp-rancher-usage-operator"
 )
 
 // ErrNotFound indicates that the adapter was not found to be installed
